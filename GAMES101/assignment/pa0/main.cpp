@@ -22,8 +22,10 @@ void h1(Eigen::Vector3f point)
     std::cout << "rotation before \n";
     std::cout << point << std::endl;
 
-    float cos45 = std::cos(45.0/180.0*acos(-1));
-    float sin45 = std::sin(45.0/180.0*acos(-1));
+    double theta = 45.0/180.0*M_PI;
+
+    float cos45 = std::cos(theta);
+    float sin45 = std::sin(theta);
 
     std::cout << "cos45=" << cos45 << std::endl;
 
