@@ -6,3 +6,5 @@ Transformation
 GAMES101/assignment/pa1/CMakeFiles
 Rasterizer
 build
+obj
+bin

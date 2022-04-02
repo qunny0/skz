@@ -1,17 +1,8 @@
 #include "Triangle.hpp"
 #include "rasterizer.hpp"
-#include "eigen3/Eigen/Eigen"
+#include <eigen3/Eigen/Eigen>
 #include <iostream>
 #include <opencv2/opencv.hpp>
-
-
-/* 
-    1. 依赖opencv环境：https://docs.opencv.org/master/d0/db2/tutorial_macos_install.html
-    2. make install
-
-
-
-*/
 
 constexpr double MY_PI = 3.1415926;
 
@@ -31,17 +22,6 @@ Eigen::Matrix4f get_view_matrix(Eigen::Vector3f eye_pos)
 Eigen::Matrix4f get_model_matrix(float rotation_angle)
 {
     Eigen::Matrix4f model = Eigen::Matrix4f::Identity();
-
-    float cosa = std::cos(rotation_angle);
-    float sina = std::sin(rotation_angle);
-
-    model(0, 0) = cosa;
-    model(0, 1) = -1 * sina;
-    model(1, 0) = sina;
-    model(1, 1) = cosa;
-
-    // model[0] = cosa, model[1] = -1 * sina;
-    // model[4] = sina, model[5] = cosa;
 
     // TODO: Implement this function
     // Create the model matrix for rotating the triangle around the Z axis.
@@ -76,8 +56,6 @@ int main(int argc, const char** argv)
         if (argc == 4) {
             filename = std::string(argv[3]);
         }
-        else
-            return 0;
     }
 
     rst::rasterizer r(700, 700);
