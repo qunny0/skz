@@ -34,7 +34,7 @@ namespace StringLibraryTest
                                      word, result));
             }
         }
-
+        
         [TestMethod]
         public void DirectCallWithNullOrEmpty()
         {

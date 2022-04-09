@@ -10,6 +10,10 @@ https://docs.microsoft.com/zh-cn/dotnet/core/tutorials/top-level-templates
 https://docs.microsoft.com/zh-cn/dotnet/fundamentals/implementations
 
 
+### csharp tutorials
+docs.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp
+
 - 安装dotnet-sdk首先关闭 vs code。 否则定位不到dotnet sdk
 
 - 参数前的 this 什么意思
+
