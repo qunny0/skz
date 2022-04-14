@@ -17,3 +17,8 @@ docs.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp
 
 - 参数前的 this 什么意思
 
+
+
+
+-- Add & Append 的区别
+-- 如何传引用
