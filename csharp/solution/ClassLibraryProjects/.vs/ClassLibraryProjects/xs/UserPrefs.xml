@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{15F8E4D8-421E-4C80-A738-3D2B19B611B8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StringLibrary/obj/Debug/net6.0/StringLibrary.GlobalUsings.g.cs">
+    <Files>
+      <File FileName="ShowCase/Program.cs" Line="1828" Column="1" />
+      <File FileName="StringLibrary/obj/Debug/net6.0/StringLibrary.GlobalUsings.g.cs" Line="3" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClassLibraryProjects" expanded="True">
+            <Node name="ShowCase" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ClassLibraryProjects" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShowCase PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ben/Documents/200-Games/skz/csharp/solution/ClassLibraryProjects/ShowCase/Program.cs" relfile="ShowCase/Program.cs" line="1827" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
